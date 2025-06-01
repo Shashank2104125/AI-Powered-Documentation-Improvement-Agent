@@ -1,0 +1,5 @@
+selenium
+webdriver-manager
+beautifulsoup4
+huggingface_hub==0.32.3
+python-dotenv
