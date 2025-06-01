@@ -47,37 +47,6 @@ This tool fetches MoEngage documentation pages, extracts the article content, an
 
 ---
 
-## File Structure
-
-ai_doc_improvement_agent/
-│
-├── agents/
-│ └── doc_analyzer_agent.py # Main agent logic
-| |** doc_revision_agent.py # Maiin agent logic
-│
-├── prompts/
-│ ├── analyzer_prompt.py # Prompt for analyzing article (Task 1)
-│ └── revision_prompt.py # Template for revising article (Task 2)
-│
-├── inference/
-│ ├── doc_analyze_hf_inference.py # Contains analyze_article function
-| |** doc_revision_hf_inference.py # Contains revise_article fucntion
-│
-├── utils/
-│ ├── fetcher.py # Uses Selenium to fetch JS-rendered content
-│ └── extractor.py # Extracts main content using BeautifulSoup
-│
-├── outputs/
-│ ├── analysis_report.md # Output of suggestions (Task 1)
-│ └── revised_article.md # Revised article (Task 2)
-| |\_\_ original_article.md # Original article (Reference)
-│
-├── main.py # Main script to run tasks
-├── requirements.txt # Python dependencies
-└── README.md # You're reading it
-
----
-
 ## ⚙️ Setup & Usage
 
 ### 1. Clone the Repository
