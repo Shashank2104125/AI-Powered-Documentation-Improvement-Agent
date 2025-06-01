@@ -1,4 +1,4 @@
-# AI Documentation Improvement Agent
+# AI-Powered Documentation Improvement Agent
 
 ## Model Used
 
