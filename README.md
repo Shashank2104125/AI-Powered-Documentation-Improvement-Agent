@@ -51,8 +51,8 @@ This tool fetches MoEngage documentation pages, extracts the article content, an
 
 ### 1. Clone the Repository
 
-git clone
-cd ai_doc_improvement_agent
+- git clone https://github.com/Shashank2104125/AI-Powered-Documentation-Improvement-Agent.git
+- cd AI-Powered-Documentation-Improvement-Agent
 
 ### 2. Install Required Dependencies
 
@@ -60,8 +60,8 @@ pip install -r requirements.txt
 
 ### 3. Set Up Environment Variables
 
-Create a .env file in the root directory and add your Hugging Face API key:
-HUGGINGFACE_API_KEY=your_hf_api_key_here
+- Create a .env file in the root directory and add your Hugging Face API key:
+- HUGGINGFACE_API_KEY=your_hf_api_key_here
 
 ### 4. Run the Project
 
